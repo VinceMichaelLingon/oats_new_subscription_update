@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Personal Info:"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter First name"
+        android:layout_margin="8dp"
+        android:id="@+id/editRegGFname"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Last name"
+        android:layout_margin="8dp"
+        android:id="@+id/editRegGLname"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Contact Number"
+        android:layout_margin="8dp"
+        android:inputType="phone"
+        android:id="@+id/editRegGContact"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Profession"
+        android:layout_margin="8dp"
+        android:id="@+id/editRegGProf"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Company Name"
+        android:layout_margin="8dp"
+        android:id="@+id/editRegGComp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Company Address"
+        android:layout_margin="8dp"
+        android:id="@+id/editRegGCompAdd"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Guest Email"
+        android:inputType="textEmailAddress"
+        android:layout_margin="8dp"
+        android:id="@+id/editRegGEmail"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_margin="8dp"
+        android:textStyle="bold"
+        android:text="Password:"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:layout_margin="8dp"
+        android:id="@+id/editRegGPass"/>
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Confirm Password"-->
+<!--        android:inputType="textPassword"-->
+<!--        android:layout_margin="8dp"-->
+<!--        android:id="@+id/editRegGconfirmPass"/>-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:backgroundTint="@color/Maroon"
+        android:text="Signup"
+        android:id="@+id/regG"/>
+
+
+
+</LinearLayout>

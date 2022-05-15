@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:elevation="20dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:id="@+id/thesis_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+            <TextView
+                android:elevation="10dp"
+                android:id="@+id/thesis_title"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Thesis Title"
+                android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/thesis_year"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2021"
+                    android:textSize="12dp"/>
+            </LinearLayout>
+            <ImageButton
+                android:elevation="5dp"
+                android:id="@+id/btn_bookmark"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                app:srcCompat="@drawable/ic_baseline_bookmark_24"
+                app:tint="@color/Maroon" />
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/thesis_deptname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Department"
+            android:textSize="12dp"
+            android:textColor="@color/Maroon"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/thesis_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course"
+            android:textSize="12dp"/>
+
+
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/image_more"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_alignParentEnd="true"-->
+        <!--            android:layout_marginEnd="10dp"-->
+        <!--            android:src="@drawable/ic_baseline_navigate_next_24"-->
+        <!--            android:layout_height="wrap_content"/>-->
+    </LinearLayout>
+
+
+    <!--    <androidx.core.widget.NestedScrollView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent">-->
+
+    <!--        <TextView-->
+
+    <!--            android:id="@+id/thesis_file_result"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:textColor="@color/Black"-->
+    <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--            app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--            app:layout_constraintRight_toRightOf="parent"-->
+    <!--            app:layout_constraintTop_toTopOf="parent" />-->
+    <!--    </androidx.core.widget.NestedScrollView>-->
+
+</androidx.cardview.widget.CardView>

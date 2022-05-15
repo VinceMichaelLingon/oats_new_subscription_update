@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AuthActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="0dp"
+        android:gravity="center"
+        android:text="Login As"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="32sp" />
+
+
+    <Button
+        android:id="@+id/btnLogStudent"
+        android:layout_width="143dp"
+        android:layout_height="96dp"
+
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="127dp"
+        android:layout_marginEnd="26dp"
+        android:backgroundTint="@color/Maroon"
+        android:text="Student" />
+
+    <Button
+        android:id="@+id/btnlogGuest"
+        android:layout_width="143dp"
+        android:layout_height="96dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="128dp"
+        android:backgroundTint="@color/Maroon"
+        android:text="Guest" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="248dp"
+        android:gravity="center"
+        android:text="Signup As"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="32sp" />
+
+
+    <Button
+        android:id="@+id/btnRegGuest"
+        android:layout_width="143dp"
+        android:layout_height="96dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="356dp"
+        android:backgroundTint="@color/Maroon"
+        android:text="Guest" />
+
+    <Button
+        android:id="@+id/btnRegStudent"
+        android:layout_width="143dp"
+        android:layout_height="96dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="358dp"
+        android:backgroundTint="@color/Maroon"
+        android:text="Student" />
+
+
+</RelativeLayout>

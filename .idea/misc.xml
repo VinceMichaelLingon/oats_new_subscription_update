@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/2/app/src/main/res/layout/fragment_thesis.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/drawable/gradient_drawable.xml" value="0.1412037037037037" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/drawable/ic_baseline_navigate_next_24.xml" value="0.2534246575342466" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/drawable/recyclerview_bgcolor.xml" value="0.2569444444444444" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/drawable/thesisfile_bgcolor.xml" value="0.2534246575342466" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/layout/activity_admin_login.xml" value="0.14270833333333333" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/layout/activity_auth.xml" value="0.2861111111111111" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/layout/activity_dashboard.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/layout/activity_guest_login.xml" value="0.14270833333333333" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/layout/activity_main.xml" value="0.14270833333333333" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/layout/activity_main2.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/layout/activity_onboard.xml" value="0.20516304347826086" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/layout/activity_student_login.xml" value="0.12864583333333332" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/layout/activity_theses_view.xml" value="0.15217391304347827" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/layout/activity_thesis.xml" value="0.12685185185185185" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/layout/activity_thesis_details.xml" value="0.20742753623188406" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/layout/citation_dialog.xml" value="0.33" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/layout/content_dasshboard.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/layout/content_main.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/layout/drawer_header.xml" value="0.33" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/layout/drawer_toolbar.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/layout/fragment_main.xml" value="0.18342391304347827" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/layout/fragment_second.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/layout/fragment_thesis.xml" value="0.33" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/layout/login_guest_dialog.xml" value="0.14270833333333333" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/layout/register_guest_dialog.xml" value="0.16304347826086957" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/layout/register_user_dialog.xml" value="0.33" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/layout/thesis_dialog_details.xml" value="0.33" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/layout/thesis_files.xml" value="0.4663677130044843" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/layout/view_pager.xml" value="0.20516304347826086" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/menu/activity_main_drawer.xml" value="0.24259259259259258" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/menu/dasshboard.xml" value="0.24259259259259258" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/menu/drawer_menu.xml" value="0.24259259259259258" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/drawable-v24/ic_email.xml" value="0.3203125" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/drawable/gradient_drawable.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/drawable/ic_baseline_book_24.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/drawable/ic_baseline_bookmark_24.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/drawable/ic_baseline_bookmark_added_24.xml" value="0.30833333333333335" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/drawable/ic_baseline_content_copy_24.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/drawable/ic_baseline_format_quote_24.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/drawable/ic_baseline_grid_3x3_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/drawable/ic_baseline_phone_iphone_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/drawable/ic_pdf.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/drawable/ic_person.xml" value="0.3828125" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/drawable/side_nav_bar.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/activity_admin_login.xml" value="0.2609375" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/activity_dashboard.xml" value="0.32314814814814813" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/activity_main.xml" value="0.30416666666666664" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/activity_main_auth.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/activity_main_auth2.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/activity_onboard.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/activity_payment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/activity_subscribe.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/activity_thesis.xml" value="0.2609375" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/activity_view_pdf.xml" value="0.29213483146067415" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/bookmarked_files.xml" value="0.28823529411764703" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/citation_dialog.xml" value="0.2609375" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/content_main.xml" value="0.2609375" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/department_list.xml" value="0.2609375" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/drawer_header.xml" value="0.2609375" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/drawer_toolbar.xml" value="0.2609375" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/fragment_bookmarked.xml" value="0.25" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/fragment_main.xml" value="0.2609375" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/fragment_main_auth.xml" value="0.3463541666666667" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/fragment_main_auth2.xml" value="0.19114583333333332" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/fragment_second.xml" value="0.2609375" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/fragment_thesis.xml" value="0.2609375" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/guest_auth.xml" value="0.2609375" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/layout_guest_auth.xml" value="0.2609375" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/layout_list.xml" value="0.2609375" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/layout_profile.xml" value="0.33" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/layout_profile_guest.xml" value="0.275" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/layout_profile_student.xml" value="0.33" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/layout_student_auth.xml" value="0.34652278177458035" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/login_guest_dialog.xml" value="0.2375" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/register_guest_dialog.xml" value="0.2609375" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/register_user_dialog.xml" value="0.2609375" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/thesis_dialog_details.xml" value="0.33" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/thesis_files.xml" value="0.25544267053701014" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/layout/view_pager.xml" value="0.2609375" />
+        <entry key="..\:/Users/audag/AndroidStudioProjects/oatsv5-PRE_ETO_BAGO/app/src/main/res/menu/drawer_menu.xml" value="0.3463541666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="EntryPointsManager">
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="retrofit2.http.GET" />
+    </list>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
