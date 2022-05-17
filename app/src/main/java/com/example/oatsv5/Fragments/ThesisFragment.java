@@ -13,6 +13,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -27,6 +28,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 
 import retrofit2.Call;
@@ -143,7 +145,74 @@ public class ThesisFragment extends Fragment {
             ThesisRecyclerAdapter thesisRecyclerAdapter = new ThesisRecyclerAdapter(getContext(), thesisList);
             recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
             recyclerView.setAdapter(thesisRecyclerAdapter);
+
+
+            EditText findthesis = view.findViewById(R.id.findthesis);
+            Button btn_search = view.findViewById(R.id.btn_serach);
+            btn_search.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    String s = findthesis.getText().toString();
+                    filter(s);
+                    Retrofit retrofit = new Retrofit.Builder()
+                            .baseUrl(Constants.BASE_URL)
+                            .addConverterFactory(GsonConverterFactory.create())
+                            .build();
+                    //call the interface
+                    RetrofitInterface retrofitInterface = retrofit.create(RetrofitInterface.class);
+
+                    HashMap<String, String> map = new HashMap<>();
+                    map.put("keyword",s);
+                    Call<Void> call = retrofitInterface.PostDataIntoSearchServer(map);
+                    call.enqueue(new Callback<Void>() {
+                        private Call<Void> call;
+                        private Response<Void> response;
+                        @Override
+                        public void onResponse(Call<Void> call, Response<Void> response) {
+                            this.call = call;
+                            this.response = response;
+                            if (response != null) {
+
+                                System.out.println("looged");
+//                    Toast.makeText(getContext(), "logged", Toast.LENGTH_SHORT).show();
+                            }else{
+                            }
+                        }
+                        @Override
+                        public void onFailure(Call<Void> call, Throwable t) {
+
+                        }
+                    });
+
+
+//        SharedPreferences sharedPreferences = getContext().getSharedPreferences("keyword", Context.MODE_PRIVATE);
+//        SharedPreferences.Editor editor = sharedPreferences.edit();
+//        editor.putString("keyword",s);
+                }
+            });
+
         }
+    private void filter (String s){
+        List<ThesesResult> filteredlist = new ArrayList<>();
+        for (ThesesResult item : thesisList){
+            if (item.getTitle().toLowerCase().contains(s.toLowerCase())){
+                filteredlist.add(item);
+
+
+            }else if(item.getPublished().toString().contains(s.toLowerCase())){
+                filteredlist.add(item);
+            }else if(item.getMoredepartments().getDeptname().toLowerCase().contains(s.toLowerCase())){
+                filteredlist.add(item);
+            }else if(item.getMoreCourse().getCoursename().toLowerCase().contains(s.toLowerCase())){
+                filteredlist.add(item);
+            }
+        }
+
+        ThesisRecyclerAdapter thesisRecyclerAdapter = new ThesisRecyclerAdapter(getContext(), thesisList);
+        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+        recyclerView.setAdapter(thesisRecyclerAdapter);
+        thesisRecyclerAdapter.filterList(filteredlist);
+    }
 
 
     }

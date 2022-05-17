@@ -72,6 +72,7 @@ public interface RetrofitInterface {
     @DELETE("api/bookmark/delete/{id}")
     Call<DeleteBookmarkJSONResponse> executeDeleteBookmark(@Path("id") String BookmarkId);
 
+    //logs
     @POST("api/download/log")
     Call<Void> PostDataIntoServer(@Body HashMap<String, String> map);
 
@@ -81,4 +82,12 @@ public interface RetrofitInterface {
     @GET("api/subscription/{id}")
     Call<FindSubscription> getFindSubscription(@Path("id") String userId);
 
+
+    @POST("api/search/log")
+    Call<Void> PostDataIntoSearchServer(@Body HashMap<String, String> map);
+
+
+    //
+    @POST("api/borrow/request")
+    Call<Void> PostDataIntoBorrowServer(@Body HashMap<String, String> map);
 }

@@ -114,7 +114,65 @@ public class ThesisRecyclerAdapter extends RecyclerView.Adapter<ThesisRecyclerAd
     holder.course.setText(thesisList.get(position).getMoreCourse().getCoursename());
 //        Toast.makeText(mContext,thesisList.get(position).getToken(), Toast.LENGTH_LONG).show();
 
+     //BORROW///////////////////////////////////////////////////////////////////////
 
+//     holder.btn_borrow.setOnClickListener(new View.OnClickListener() {
+//         @Override
+//         public void onClick(View view) {
+//             Retrofit retrofit = new Retrofit.Builder()
+//                     .baseUrl(Constants.BASE_URL)
+//                     .addConverterFactory(GsonConverterFactory.create())
+//                     .build();
+//
+//             //call the interface
+//             RetrofitInterface retrofitInterface = retrofit.create(RetrofitInterface.class);
+//
+////             SharedPreferences sharedPreferences = getApplicationContext().getSharedPreferences("pdf", Context.MODE_PRIVATE);
+////             String title = sharedPreferences.getString("title", "");
+////             String id = sharedPreferences.getString("id", "");
+////             String dept = sharedPreferences.getString("department","");
+//
+////             System.out.println("thesisID"+id);
+////
+//             String tryy = "try lang to";
+////             String postTitle = title.toString();
+////             String postId = id.toString();
+////             String postDept = dept.toString();
+//
+//
+//             HashMap<String, String> map = new HashMap<>();
+//             map.put("thesis_id",tryy);
+////             map.put("thesis_title",postTitle);
+//////
+////             map.put("thesis_department",postDept);
+//
+//             Call<Void> call = retrofitInterface.PostDataIntoBorrowServer(map);
+//             call.enqueue(new Callback<Void>() {
+//                 private Call<Void> call;
+//                 private Response<Void> response;
+//                 @Override
+//                 public void onResponse(Call<Void> call, Response<Void> response) {
+//                     this.call = call;
+//                     this.response = response;
+//                     if (response != null) {
+//
+//                         System.out.println("looged");
+////                         Toast.makeText(ViewPDF.this, "logged", Toast.LENGTH_SHORT).show();
+//                     }else{
+////                         Toast.makeText(getApplicationContext(), "not logged", Toast.LENGTH_SHORT).show();
+//                     }
+//                 }
+//
+//                 @Override
+//                 public void onFailure(Call<Void> call, Throwable t) {
+//
+//                 }
+//             });
+//
+//         }
+//     });
+
+    //BOOKMARK/////////////////////////////////////////////////////////////////////
     holder.btn_bookmark.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View view) {
@@ -413,12 +471,6 @@ public class ThesisRecyclerAdapter extends RecyclerView.Adapter<ThesisRecyclerAd
                                     citation = citation +" "+ttle+" " +pblshd+" " +crse+" "+athrss;
 //
 //                    cite.setText(citation);
-
-
-
-
-
-
 
                                     builder.setView(dialogView);
                                     builder.setCancelable(true);
@@ -1265,6 +1317,7 @@ public class ThesisRecyclerAdapter extends RecyclerView.Adapter<ThesisRecyclerAd
         TextView year;
         TextView course;
         private ImageButton btn_bookmark;
+        private ImageButton btn_borrow;
 
 
         public MyViewHolder(@NonNull View itemView) {
@@ -1275,6 +1328,7 @@ public class ThesisRecyclerAdapter extends RecyclerView.Adapter<ThesisRecyclerAd
             course = itemView.findViewById(R.id.thesis_course);
             department = itemView.findViewById(R.id.thesis_deptname);
             btn_bookmark = itemView.findViewById(R.id.btn_bookmark);
+            btn_borrow = itemView.findViewById(R.id.btn_borrow);
             cardview = itemView.findViewById(R.id.thesis_card);
 
         }
@@ -1325,5 +1379,8 @@ public class ThesisRecyclerAdapter extends RecyclerView.Adapter<ThesisRecyclerAd
 
     }
 
-
+    public void filterList(List<ThesesResult> filteredList){
+        thesisList= filteredList;
+        notifyDataSetChanged();
+    }
 }
