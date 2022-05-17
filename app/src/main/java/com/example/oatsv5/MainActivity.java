@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 //            finish();
 //           Intent intent = new Intent(this, MainActivity.class);
 
-            Intent home = new Intent(getApplicationContext(),MainAuth.class);
+            Intent home = new Intent(getApplicationContext(),DashboardActivity.class);
             startActivity(home);
             finish();
 

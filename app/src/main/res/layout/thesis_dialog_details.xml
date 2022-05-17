@@ -135,6 +135,17 @@
                     android:elevation="5dp"
                     android:backgroundTint="@color/Maroon"
                     app:tint="@color/White" />
+
+                <ImageButton
+                    android:id="@+id/btn_borrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/Maroon"
+                    android:elevation="5dp"
+                    android:src="@drawable/borrow"
+                    app:tint="@color/White" />
+
                 <ImageButton
                     android:id="@+id/btn_pdf"
                     android:layout_width="wrap_content"
@@ -143,10 +154,13 @@
                     android:elevation="5dp"
                     android:backgroundTint="@color/Maroon"
                     app:tint="@color/White" />
+
             </LinearLayout>
 
 
-<!--            <TextView-->
+
+
+            <!--            <TextView-->
 <!--                android:id="@+id/txt_base64"-->
 <!--                android:layout_width="wrap_content"-->
 <!--                android:layout_height="wrap_content"-->

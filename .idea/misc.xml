@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/2/app/src/main/res/layout/activity_payment.xml" value="0.15896739130434784" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/2/app/src/main/res/layout/activity_thesis.xml" value="0.15896739130434784" />
         <entry key="..\:/Users/Vince/AndroidStudioProjects/2/app/src/main/res/layout/fragment_thesis.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/2/app/src/main/res/layout/thesis_dialog_details.xml" value="0.25" />
+        <entry key="..\:/Users/Vince/AndroidStudioProjects/2/app/src/main/res/layout/thesis_files.xml" value="0.15896739130434784" />
         <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/drawable/gradient_drawable.xml" value="0.1412037037037037" />
         <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/drawable/ic_baseline_navigate_next_24.xml" value="0.2534246575342466" />
         <entry key="..\:/Users/Vince/AndroidStudioProjects/oatsv5/app/src/main/res/drawable/recyclerview_bgcolor.xml" value="0.2569444444444444" />
